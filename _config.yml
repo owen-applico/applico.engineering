@@ -1,1 +1,86 @@
-theme: jekyll-theme-slate
+# Site configuration
+# 1. Files excluded from Jekyll builds
+# 2. Installed Gems
+# 3. Gem settings
+# 4. Jekyll settings
+# 5. Collections
+# 6. Jekyll collections settings
+# 7. Site settings
+# 8. Site navigation
+
+# 1. Files excluded from Jekyll builds
+exclude:
+- README.md
+- screenshot.png
+- LICENSE
+#- CNAME
+- Gemfile
+- Gemfile.lock
+- demo/*
+- alembic-jekyll-theme.gemspec
+
+# 2. Installed Gems
+gems:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jemoji
+
+# 3. Gem settings
+paginate: 2 # jekyll-paginate > items per page
+paginate_path: blog/page:num # jekyll-paginate > blog page
+author: William Dalpe # jekyll-seo-tag > default author
+social: # jekyll-seo-tag > social overrides
+  name: William Dalpe # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://www.facebook.com/pages/APPLICO-Engineering/656784160999074
+
+# 4. Jekyll settings
+sass:
+  style: compressed # Style compression
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: America/New_York # Timezone for blog posts and alike
+
+# 5. Collections
+collections:
+  posts:
+    title: Posts # Needed for Siteleaf
+    output: true
+    description: "My thoughts and ideas" # The post list page content
+    feature_text: |
+      Welcome to the blog
+    feature_image: "https://unsplash.it/1300/400?image=1067"
+
+# 6. Jekyll collections settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: pages
+    values:
+      layout: page # Default layout
+      image: "/assets/placeholder-social.png" # Default image for sharing
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post # Default layout
+      image: "/assets/placeholder-social.png" # Default image for sharing
+
+# 7. Site settings
+encoding: utf-8 # Make sure the encoding is right
+title: "Applico Engineering" # Site name or title, also used in jekyll-seo-tag
+logo: "/assets/hamster.jpg" # Site logo, also used in jekyll-seo-tag
+description: "APPLICO has been offering mechanical design to Americans for quite a while. We've recently joined the World-Wide Web and might even join the Dark Web soon!" # Site description and default description, also used in jekyll-seo-tag
+url: "https://applico.engineering" # Site url, also used in jekyll-seo-tag
+email: "info@applicoinc.com"
+
+# 8. Site navigation
+navigation_header:
+  Home: /
+  Contact: /contact/
