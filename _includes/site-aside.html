@@ -5,10 +5,6 @@
     <p>{{ site.description }}</p>
   {% endunless %}
 
-  {% unless page.layout == "categories" or page.layout == "search" or page.collection == "posts" or paginator.posts %}
-    {% include post-list.html %}
-  {% endunless %}
-
   {% if page.layout == "categories" %}
     <section class="section  section--category-index">
       <h3>Index</h3>
