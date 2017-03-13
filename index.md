@@ -59,8 +59,8 @@ Getting it 'Right' the first* time is our reputation.
 We are now featuring this service by high demand.
 Try us out and join our list of satisfied customers.
 > 🗨 William Dalpe
-> 📌
+> 📌 Rehoboth, Massachusetts
 
 > Picture being updated
 > 🗨 William Dalpe
-> 📌
+> 📌 Rehoboth, Massachusetts
