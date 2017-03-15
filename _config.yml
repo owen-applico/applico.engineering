@@ -66,7 +66,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 title: "Applico Engineering" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/hamster.jpg" # Site logo, also used in jekyll-seo-tag
-description: "APPLICO has been offering mechanical design to Americans for quite a while. We've recently joined the World-Wide Web and might even join the Dark Web soon!" # Site description and default description, also used in jekyll-seo-tag
+description: "APPLICO Engineering has been offering mechanical design to Americans for quite a while. We've recently joined the World-Wide Web and might even join the Dark Web soon!" # Site description and default description, also used in jekyll-seo-tag
 url: "https://applico.engineering" # Site url, also used in jekyll-seo-tag
 email: "info@applicoinc.com"
 
