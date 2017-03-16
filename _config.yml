@@ -35,6 +35,7 @@ paginate_path: blog/page:num # jekyll-paginate > blog page
 author: William Dalpe # jekyll-seo-tag > default author
 social: # jekyll-seo-tag > social overrides
   name: Applico Engineering # jekyll-seo-tag > real name
+  headline: Applico Engineering − from CAD sketches to flying hamsters 🐹☁
   links:  # jekyll-seo-tag > social aliases (sameAs)
     - https://www.facebook.com/pages/APPLICO-Engineering/656784160999074
 
