@@ -10,7 +10,7 @@ excerpt: "Applico offers all aspects of mechanical engineering − from CAD sket
 
 Applico offers all aspects of mechanical engineering − from CAD sketches to flying hamsters. Does engineering grind your gears? Applico can do it better than you with less bitching! Faster, better, cheaper, stronger, etc
 
-{% include button.html text="Read Modern Monopolies" icon="link" link="https://www.amazon.com/Modern-Monopolies-Dominate-Century-Economy/dp/1250091896/ref=sr_1_1?ie=UTF8&amp;qid=1488577761&amp;sr=8-1&amp;keywords=Modern+Monopolies&_encoding=UTF8&tag=applico05-20&linkCode=ur2&linkId=a5f4474ecf38fedf2b6cdc472a59b2a2&camp=1789&creative=9325" %} {% include button.html text="Buy this domain 🌐" link="https://www.paypal.me/kokociel/2000usd" color="#333333" %}
+{% include button.html text="Read Modern Monopolies" icon="link" link="https://www.amazon.com/Modern-Monopolies-Dominate-Century-Economy/dp/1250091896/ref=sr_1_1?ie=UTF8&amp;qid=1488577761&amp;sr=8-1&amp;keywords=Modern+Monopolies&_encoding=UTF8" %} {% include button.html text="Buy this domain 🌐" link="https://www.paypal.me/kokociel/2000usd" color="#333333" %}
 
 ## Services
 
