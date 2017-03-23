@@ -1,8 +1,8 @@
 User-agent: *
+Allow: /contact
+Allow: /$
 Disallow: /assets/
 Disallow: .gitignore
 Disallow: CNAME
 Disallow: _config.yml
-Allow: /contact
-Allow: /$
 Sitemap: http://http://applico.engineering/sitemap.xml
