@@ -5,4 +5,4 @@ Disallow: CNAME
 Disallow: _config.yml
 Allow: /contact
 Allow: /$
-Sitemap: http://http://applico.engineering/sitemap.xml
+Sitemap: http://applico.engineering/sitemap.xml
